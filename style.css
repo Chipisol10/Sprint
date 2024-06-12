@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* inicio de header */
+ header{
+    background-color: #f6a6c2;
+}
+
+header .navbar{
+    display: inline-block;
+    width: 30%;
+    vertical-align: super;
+}
+  
+ header .navbar a{
+    display:inline-block;
+    text-decoration: none;
+    color: rgb(28 27 27);
+    font-size: 23px;
+    margin: 5px;
+    
+}
+
+ header .navbar a:hover{
+   color:white;
+ }
+  header .logo{
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+    margin-left: 58vw;
+ }
+
+  header .logo img{
+    width: 76%;
+    height: 20%;
+ }
+
+ /* Inicio de Main */
+
+ main{
+    background-color: #de8abe;
+ }
+
+ main .titulo{
+    text-align: center;
+ }
+
+ main .titulo h1{
+    font-size: 40px;
+ }
+
+ main .titulo h2{
+    font-size: 30px;
+ }
+
+ main .banner{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+ }
+
+ main .informacion{
+    text-align: center;
+    padding-top: 5vh;
+}
+ 
+
+ main .informacion p{
+    display: inline-block;
+    font-size: 20px;
+ }
+
+ main .informacion .inf_p{
+    display: inline-block;
+    width: 20%;
+    vertical-align: super;
+ }
+
+ main .informacion .inf_img{
+    display: inline-block;
+    width: 20vw;
+    height: 27vh;
+    vertical-align: middle;
+    
+ }
+
+ main .informacion .inf_img img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    
+ }
+/* inicio footer */
+ footer{
+    
+    background-color:#f6a6c2;
+   
+}
+
+
+.footer{
+    text-align: center;
+    font-size: 18px;
+    padding: 0.8vh;
+
+}
+
+/* inicio de Css de contact */
+
+
+main .bannerinffo{
+   margin: 30px;
+   width: 100vh;
+   height: 30vh;
+   position: relative;
+   left: 25%;
+   
+}
+main p{
+   font-size: 150%;
+   text-align: center;
+   height: 10vh;
+}
+main .contac{
+   text-align:center;
+   height:25vh;
+   
+   
+}
+main .cel{
+   margin: 20px 110px;
+   text-decoration: none;
+   color:black;
+   font-size: 25px;
+}
+main .email{
+   display: inline-block;
+   margin: 20px 100px;
+   text-decoration: none;
+   color: black;
+   text-decoration: none;
+   font-size: 25px;
+
+}
+main .email a:hover{
+   color:white;
+
+}
+
+ 
+
+
