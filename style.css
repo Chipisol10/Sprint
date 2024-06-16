@@ -24,7 +24,7 @@ header .navbar{
    justify-content: space-around;
 }
   
- header .navbar a{
+ header .navbar .navbar__a{
     /* display:inline-block; */
     text-decoration: none;
     border: 1px solid rgb(16, 16, 16);
@@ -37,8 +37,14 @@ header .navbar{
    
 }
 
+header .navbar__a[href="#"] {
+   color:#273746;
+   background-color: #D6EAF8;
+}
+
  header .navbar a:hover{
-   color:white;
+   color:#808B96;
+   background-color: #F5EEF8  ;
  }
 
 
