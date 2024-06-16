@@ -118,9 +118,10 @@ main .informacion {
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
+   background-color: #de8abe;
    /* width: 20vw;
     height: 27vh;
-    vertical-align: middle; 
+   /*  vertical-align: middle; 
    display: inline-block; */
 
 
@@ -301,4 +302,21 @@ main .benefits .benefits_img img {
    background-color: #f6a6c2;
    padding-top: 15px;
 
+}
+
+.informacion1{
+width: 100%;
+min-height: 75vh;
+display: flex;
+justify-content: center;
+
+}
+
+.inf_map{
+width: 40%;
+min-height: 40vh;
+}
+.inf_table{
+width: 40%;
+min-height: 40vh;
 }
