@@ -3,59 +3,87 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint2</title>
+    <title>raffle</title>
     <link rel="shortcut icon" href="../assent/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
   </head>
-  <body>
-    <header>
-      
-      <nav class="navbar">
-        <a class=" navbar__a active" href="../index.html">Home</a>
-        <a class="navbar__a" href="./aboutUs.html">About</a>
-        <a class="navbar__a" href="./contact.html">Contact</a>  
-        <a class="navbar__a" href="./information.html">More information</a>  
-        <a class="navbar__a" href="./benefitsTips.html">Benefits and Tips</a>
-        <a class=" navbar__a active" href="#">Raffle</a>  
-        </nav>
-      <div class="logo"><img src="../assent/logo.png" alt="Helado de colores"></div>
-    </header>
-    <main>
-        <section class="titulo">
-          <h1>Cake Shop</h1>
-          <h2>Home</h2>
-        </section>
-        <!-- <div class="banner">
-          <img class="banner" src="./assent/icecream.jpg" alt="Conos de helados de">
-        </div> -->
   
-        <div class="informacion1">
-          <div class="inf_map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.6556970162787!2d-118.38663442368714!3d33.92425992447633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b6b3cc89c9ad%3A0xa43b1f1824d7a596!2sLos%20Angeles%20Lakers!5e0!3m2!1ses!2sar!4v1718547673111!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="inf_table">
-            
-              <form  action="./showdata.html" method="get">
+  <body>
+    
+    
+      <div class="container">
+        <header class="header">
+          <nav class="navbar">
+            <a class="navbar__a active" href="../index.html">Home</a>
+            <a class="navbar__a" href="./aboutUs.html">About</a>
+            <a class="navbar__a" href="./contact.html">Contact</a>
+            <a class="navbar__a" href="./information.html">More information</a>
+            <a class="navbar__a" href="./benefitsTips.html">Benefits and Tips</a>
+            <a class="navbar__a" href="#">Raffle</a>
+          </nav>
+      
+          <img class="logo" src="../assent/logo.png" alt="Helado de colores" />
+          
+        </header>
+      
+        <main class="main_index">
+          <h1 class="main_index_h1">Snowy Cream</h1>
+          <h2 class="main_index_h2"> Cream</h2>
+    
+        
+    
+    
+          <div class="main_index_inf">
+            <div class="main_index_inf1">
+              <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.6556997007474!2d-118.38893041144419!3d33.92425985540171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b6b3cc89c9ad%3A0xa43b1f1824d7a596!2sLos%20Angeles%20Lakers!5e0!3m2!1ses!2sar!4v1718749875784!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
+              <form action="./show_data.html" method="get" class="main_index_inf_p">
                 <label for="name">
-                  Name
+                  FirstName
                   <input type="text" name="name" id="name">
                 </label>
-
-                <label for="Lastname">
-                  Lastname
-                  <input type="text" name="Lastname" id="Lastname">
+                <label for="name">
+                  LastName
+                  <input type="text" name="name" id="name">
                 </label>
-
+                <label for="">Choose Meet or Zoom
+                <select name="" id="">
+                  <option value="meet">Meet</option>
+                  <option value="zoom">Zoom</option>
+                </select>
+              </label>
+                <label for="start">
+                  Choose Date
+                  <input type="date" name="start" id="start">
+                <fieldset>
+                  <legend>Payment options</legend>
+                </label>
+                <label for="radio">Cash
+                  <input type="radio" name="" id="">
+                </label>
+                <label for="radio">Debt
+                  <input type="radio" name="" id="">
+                </label>
+                <label for="radio">Credit
+                  <input type="radio" name="" id="">
+                </label>
+              </fieldset>
+              <label for="">Message optional
+                <textarea name="textarea" rows="10" cols="15"></textarea>
+              </label>
+              <label for="">I accept terms and conditions...
+                <input type="button" value="">
+              </label>
+              <button>send</button>
               </form>
-            
+            </div>
           </div>
-          
-        </div>
-      </main>
-  
-      <footer>
-        <p class="footer">Created By: por Luis G.</p>
-      </footer>
-   
-    </body>
-  </html>
+    
+    
+        </main>
+        <footer class="footer">
+          <p class="footer_p">Created By: por Luis G.</p>
+        </footer>
+      </div>
+      </body>
+      
+      </html>
