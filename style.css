@@ -18,7 +18,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   min-height: 10vh;
+   min-height: 8vh;
    padding: 0 10px;
 }
 
@@ -30,7 +30,7 @@
    border-radius: 10px;
    padding: 3.4px;
    color: rgb(28 27 27);
-   font-size: 18px;
+   font-size: 26px;
    margin: 5px;
    background-color: #f68bb0;
 
@@ -51,7 +51,7 @@
 .header .logo {
    object-fit: cover;
    width: 10%;
-   height: 10%;
+   height: 8%;
 
 
 }
@@ -67,6 +67,7 @@
    text-align: center;
    width: 100%;
    font-weight: 700;
+   font-size: 40px;
 }
 
 
@@ -135,45 +136,52 @@ inicio footer
 
 /*Inicio de Css de contact*/
 
-.main_index_banner1{
-  display: flex;
-  justify-content: center;
+.main_index_h1_contac, .main_index_h2_contact{
+   text-align: center;
+   width: 100%;
+   font-weight: 700;
+   font-size: 40px;
 }
+
+.main_index_banner1{
+   display: flex;
+   justify-content: center;
+ }
+
 .main_index_banner2{
    width: 60%;
    height: 350px;
    object-fit: cover;
+   margin: 30px;
 }
 
-.main_index_p3{
+.main_index_p1_contact{
    text-align: center;
    font-size: 25px;
+   margin: 25px;
 }
 
-.main_index_inf1{
-   width: 90%;
-
-   
-}
-
-.main_index_inf1{
+.main_index_inf_contact{
+   /* width: 90%; */
    display: flex;
    width: 100%;
    align-items: center;
-   justify-content: space-evenly;
+   justify-content: center;
    padding: 20px;
+   
 }
 
-.main_index_inf_p1{
-   width: 30%;
+
+.main_index_inf_p2_contact{
+   width: 33%;
    /* margin: 30px; */
    font-size: 23px;
 }
 
 
 
-.main_index_inf_p2{
- width: 30%;
+.main_index_inf_p3_contact{
+ width: 18%;
  font-size: 23px;
 }
  
@@ -232,6 +240,13 @@ td {
 
 /*Inicio de Css Benefits*/
 
+.main_index_h1_benefit, .main_index_h2_benefit{
+   text-align: center;
+   width: 100%;
+   font-weight: 700;
+   font-size: 40px;
+}
+
 .main_index_inf4{
 width: 90%;
 display: flex;
@@ -239,17 +254,27 @@ display: flex;
    
 }
 
+.main_index_inf_p6{
+   display: flex;
+  justify-content: space-around;
+}
+
 .main_index_inf5{
    /* display: flex; */
    width: 100%;
    /* flex-direction: column; */
    padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
 }
 
 .main_index_inf_p5{
    width: 30%;
    font-size: 23px;
    display: flex;
+   flex-direction: column;
+   gap: 10px;
 }
 
 
@@ -262,3 +287,201 @@ display: flex;
  }
 
 
+/*Inicio de Raffle*/
+.main_index_inf_raffle{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.main_index_inf7{
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 20px;
+}
+
+.main_index_h7, .main_index_h8{
+   text-align: center;
+   width: 100%;
+   font-weight: 700;
+   font-size: 30px;
+}
+
+.map_p{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.map_p1{
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 500;
+}
+
+
+form{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   /* background-color: #f6a6c2; */
+   padding: 20px;
+   margin-top: 30px;
+   width: 50%;
+  
+   
+}
+.container_form{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   padding: 10px;
+   border:1px solid black;
+   margin-left: 22px;
+}
+
+
+.Payment_options{
+   display: flex;
+   flex-direction: column;
+   border: 1px solid black;
+}
+
+.checkbox{
+   display: flex;
+}
+
+.button{
+   border: 1px solid #f68bb0;
+   border-radius: 20px;
+   padding: 5px;
+   margin: 5px;
+   background-color: #c64d77;
+
+}
+
+ button:hover{
+   color: #2a2426;
+   background-color: #f68bb0;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+   .header{
+      flex-direction:column-reverse;
+   }
+
+   .header .navbar .navbar__a{
+      font-size: 20px;
+   }
+
+   
+   .header .logo{
+      width: 85px;
+   }
+
+   .navbar{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .main_index_banner{
+      height: 260px;
+   }
+
+   .main_index_inf1{
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   .main_index_inf_p {
+      width: 70%;
+      /* margin: 30px; */
+      font-size: 20px;
+  }
+
+  .main_index_inf_img {
+   width: 70%;
+   height: 250p}
+   
+
+
+/*inicio el contact*/
+
+.main_index_h1_contac, .main_index_h2_contact{
+   font-size: 37px;
+}
+.main_index_banner2 {
+   width: 80%;
+   height: 300px;
+}
+
+.main_index_inf_p2_contact {
+   width: 86%;
+   /* margin: 30px; */
+   font-size: 18px;
+}
+
+.main_index_inf_contact{
+   flex-direction: column;
+}
+
+.main_index_inf_p3_contact {
+   width: 58%;
+   font-size: 21px;
+}
+
+.main_index_p3 {
+   text-align: center;
+   font-size: 24px;
+}
+
+/*informacion*/
+
+.table1{
+   padding: 10px;
+   
+}
+
+.table2{
+   width:100px;
+   height: 100px;
+}
+
+td, th{
+   padding: 10px;
+}
+
+.main_index_h1_benefit, .main_index_h2_benefit{
+   font-size: 15px;
+}
+.main_index_inf_p6{
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.main_index_inf_p5{
+   font-size: 15px;
+}
+
+.main_index_inf_img5{
+   width:75%;
+   height: 220px;
+}
+
+.main_index_inf7{
+   flex-direction: column-reverse;
+   width: 80%;
+   align-items: center;
+}
+
+form{
+   width: 40%;
+   margin-top: 58px;
+}
+
+
+}
